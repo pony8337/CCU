@@ -1,9 +1,6 @@
 
 public class GradeConverter {
 	
-	public GradeConverter() {
-	}
-	
 	public String convert(int grade) throws IllegalGradeException {
 		// TODO Auto-generated method stub
 		if(grade > 100 || grade < 0) {
