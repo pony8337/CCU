@@ -1,0 +1,6 @@
+Keyword: procedure
+Identifier: SUM
+Keyword: is
+Keyword: begin
+Keyword: end
+Operator: ;
