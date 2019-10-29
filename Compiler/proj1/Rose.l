@@ -123,11 +123,12 @@ int main()
       printf("Operator: )\n");
       break; 
     case ERROR:
-      fprintf(fp,"Lexical error: line %d: unknown cheracter %s\n",yylineno, yytext);  
+      fprintf(fp,"Lexical error: line %d: unknown cheracter %s\n",yylineno, yytext);
     break;
     default:
     break;
     }
   }
+  fclose(fp);
   return 0;
 }
